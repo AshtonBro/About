@@ -44,6 +44,10 @@ body {
     margin-left: 20px;
 }
 
+.social-link:first-child {
+    margin-left: 0;
+}
+
 .hero-content {
     display: flex;
     justify-content: space-between;
@@ -186,4 +190,60 @@ body {
 
 .form-button {
     width: 100%;
+}
+
+.contacts-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts-text {
+    flex-basis: 50%;
+}
+
+.contacts-data {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 42px;
+}
+
+.contacts-phone,
+.contacts-mail {
+    flex-basis: 50%;
+    margin-bottom: 53px;
+}
+
+.contacts-social {
+    flex-basis: 100%;
+}
+
+.contacts-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.contacts-link {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 37px;
+}
+
+.contacts-link:hover {
+    text-decoration: underline;
+}
+
+.links {
+    margin-bottom: 72px;
+}
+
+.contacts-policy {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #a5a5a5;
 }
