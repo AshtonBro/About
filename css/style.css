@@ -307,3 +307,8 @@ body {
 .project-icon {
     margin-right: 16px;
 }
+
+.project-image {
+    max-width: 338px;
+    max-height: 268px;
+}
