@@ -473,4 +473,40 @@ body {
     .project-paragraph {
         font-size: 14px;
     }
+
+    .contacts-form {
+        padding: 40px 19px;
+    }
+
+    .form-title {
+        font-size: 15px;
+        line-height: 140%;
+    }
+
+    .form-button {
+        font-size: 10px;
+    }
+
+    .input {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .contacts-phone,
+    .contacts-mail {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contacts-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .contacts-link {
+        font-size: 14px;
+        line-height: 16px;
+        display: block;
+        margin-bottom: 13px;
+    }
 }
